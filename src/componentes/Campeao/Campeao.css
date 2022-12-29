@@ -1,0 +1,52 @@
+.campeao {
+    width: 280px;
+    margin-top: 32px;
+    position: relative;
+}
+
+.campeao .cabecalho {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+}
+.campeao img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.campeao .rodape {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.campeao .rodape h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.campeao .rodape h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 8px;
+}
+
+.campeao .deletar {
+    position: absolute;
+    padding:5px;
+    top: -12.5px;
+    right: -12.5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.campeao .deletar:hover {
+    color: rgba(195,170,67,1);
+}

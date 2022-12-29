@@ -1,0 +1,20 @@
+footer.rodape {
+    background-color: #061c25;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape .redes-sociais {
+    display: flex;
+    gap: 8px;
+}
+
+.rodape .logo {
+    max-height: 64px;
+}
+
+.rodape p {
+    color: #fff;
+}
